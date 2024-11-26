@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
 const easyYopmail = require('easy-yopmail');
-const fs = require('fs');
+// const fs = require('fs');
 
 const DEFAULT_PASSWORD = '@Yen221194';
 const URL_SIGNUP = 'https://student.kyons.vn/sign-up';

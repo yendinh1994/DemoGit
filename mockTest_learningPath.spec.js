@@ -5,8 +5,8 @@ const { test, expect } = require('@playwright/test');
 test('test mock-test', async ({ page }) => {
     
     //1. Login
-    await page.goto('https://student.kyons.vn/sign-in');
-    await page.getByPlaceholder('Nhập email').fill('testyen@yopmail.com');
+    await page.goto('https://student-stg.kyons.vn/sign-in');
+    await page.getByPlaceholder('Nhập email').fill('dtp.yen@kyons.vn');
     await page.getByPlaceholder('Nhập mật khẩu').fill('@Yen221194');
     await page.getByRole('button',{ name: 'Đăng nhập', exact: true }).click();
 

@@ -22,9 +22,6 @@ test('test chat AI', async ({ page }) => {
     await inputElement.press('Enter');
     
 
-
-     // Expects page to have a heading with the name of Installation.
-
      // Lấy element dựa trên thuộc tính title và class
     const historyItem1 = page.locator('a.history-item[title="test 1"]');
     const historyItem2 = page.locator('a.history-item[title="test 2"]');
